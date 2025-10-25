@@ -1,12 +1,12 @@
-map_name: 'test_10x10'     # Base name of the map
-num_of_robots: 6            # Number of robots to spawn
+map_name: 'empty_100x100'     # Base name of the map
+num_of_robots: 20            # Number of robots to spawn
 distribution: 'circle'        # One of the options from 'distribution_list'
 
 distribution_list:
   circle:                   # If selected, this option will spawn 'num_of_robots'
     center_x: 0             # robots evenly distributed in a circle centered in
     center_y: 0             # 'center_x' and 'center_y' with radius of 'radius'.
-    radius: 2
+    radius: 3.5
 
   line:
     center_x: 0             # If selected, this option will spawn 'num_of_robots'

@@ -1,3 +1,7 @@
+### Manage
+- multi_DTBASM/src/sphero_simulation/sphero_stage/launch/launch_params.yaml - change number of robots
+
+
 Click in the upper right corner for Table of Contents ↗️
 
 # FER - MRS Course Project

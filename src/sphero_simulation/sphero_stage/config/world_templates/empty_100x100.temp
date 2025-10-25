@@ -1,0 +1,12 @@
+include "definitions.inc"
+
+# load an environment bitmap
+floorplan
+(
+	name "empty"
+	bitmap "../maps/empty/empty.bmp"
+	size [100 100 1]  # duzina sirina visina
+	pose [ 0 0 0 0 ]
+)
+
+# throw in robots
