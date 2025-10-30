@@ -14,10 +14,10 @@ class RobotController(Node):
     def __init__(self):
         super().__init__('robot_controller')
 
-        self.declare_parameter('separation_strength', 0.8)
-        self.declare_parameter('alignment_strength', 0.5)
-        self.declare_parameter('cohesion_strength', 0.5)
-        self.declare_parameter('neighborhood_radius', 3.0)
+        self.declare_parameter('separation_strength', 0.5)
+        self.declare_parameter('alignment_strength', 0.8)
+        self.declare_parameter('cohesion_strength', 1.0)
+        self.declare_parameter('neighborhood_radius', 5.0)
 
         self.publishers_ = []
         self.odom_subscribers_ = []
