@@ -1,5 +1,5 @@
-map_name: 'test_10x10'     # Base name of the map
-num_of_robots: 6            # Number of robots to spawn
+map_name: 'empty_10x10'     # Base name of the map
+num_of_robots: 10            # Number of robots to spawn
 distribution: 'circle'        # One of the options from 'distribution_list'
 
 distribution_list:
